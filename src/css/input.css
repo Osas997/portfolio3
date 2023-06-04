@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    nav ul.datang {
+        @apply visible opacity-100;
+}
+nav.nav-fixed{
+    @apply fixed z-[999] bg-white bg-opacity-75 shadow-sm backdrop-blur;
+}
+section{
+    scroll-margin-top: 0px;
+}
+}
